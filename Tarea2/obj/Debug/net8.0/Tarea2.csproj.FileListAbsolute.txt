@@ -1,5 +1,6 @@
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\bin\Debug\net8.0\appsettings.json
+C:\Users\brasl\Desktop\Tarea_2\Tarea2\bin\Debug\net8.0\Tarea2.staticwebassets.runtime.json
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\bin\Debug\net8.0\Tarea2.exe
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\bin\Debug\net8.0\Tarea2.deps.json
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\bin\Debug\net8.0\Tarea2.runtimeconfig.json
@@ -10,6 +11,8 @@ C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.AssemblyInfoInputs
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.AssemblyInfo.cs
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.csproj.CoreCompileInputs.cache
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.RazorAssemblyInfo.cache
+C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.RazorAssemblyInfo.cs
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.sourcelink.json
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\staticwebassets.development.json
@@ -18,7 +21,9 @@ C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\staticwebassets\msbuild.b
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Tarea2.props
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Tarea2.props
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\scopedcss\bundle\Tarea2.styles.css
+C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\scopedcss\projectbundle\Tarea2.bundle.scp.css
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.dll
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\refint\Tarea2.dll
 C:\Users\brasl\Desktop\Tarea_2\Tarea2\obj\Debug\net8.0\Tarea2.pdb
