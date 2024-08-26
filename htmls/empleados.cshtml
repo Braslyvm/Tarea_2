@@ -1,0 +1,70 @@
+
+@page
+@model IndexModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Empleados</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+        .datos.coleccion {
+            margin: 20px;
+        }
+        .display-4 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"] {
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="datos coleccion">
+        <h1 class="display-4">Registro de Empleados</h1>
+        <p>Ingrese los siguientes datos según corresponde.</p>
+        <form id="registroForm">
+            <input type="text" id="name" name="name" placeholder="Nombre" required />
+            <input type="text" id="lastname1" name="lastname1" placeholder="Apellido Paterno" required />
+            <input type="text" id="lastname2" name="lastname2" placeholder="Apellido Materno" required />
+            <input type="number" id="cedula" name="cedula" placeholder="Número de cédula" maxlength="9" minlength="9" required />
+            <input type="number" id="Numero" name="Numero" placeholder="Número de teléfono" maxlength="8" minlength="8" required />
+            <label for="role">Seleccione el rol:</label>
+            <select id="role" name="role" required>
+                <option value="" disabled selected>Seleccione una opción</option>
+                <option value="empleado">Empleado</option>
+                <option value="jefedepartamento">Jefe de Departamento</option>
+            </select>
+            <p>Fecha de ingreso: </p>
+            <input type="date" id="FechaIngreso" name="FechaIngreso" required />
+            <input type="text" id="Correo" name="Correo" placeholder="Correo" required />
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+</body>
+</html>

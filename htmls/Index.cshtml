@@ -1,0 +1,59 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menú de Navegación</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+        nav {
+            margin: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+   
+     <form method="get" action="/empleados">
+        <button type="submit">Registro de Empleados</button>
+    </form>
+    <form method="get" action="/actividades">
+        <button type="submit">Registro de Actividades</button>
+    </form>
+    <form method="get" action="/departamento">
+        <button type="submit">Registro de Departamento</button>
+    </form>
+    <form method="get" action="/proyectos">
+        <button type="submit">Registro de Proyectos</button>
+    </form>
+    <form method="get" action="/tareas">
+        <button type="submit">Registro de Tareas</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+@page
+@model IndexModel
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Tareas</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+        .datos.coleccion {
+            margin: 20px;
+        }
+        .display-4 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="date"] {
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="datos coleccion">
+        <h1 class="display-4">Registro de Proyectos</h1>
+        <p>Ingrese los siguientes datos según corresponde.</p>
+        <form id="registroForm">
+            <input type="text" id="CodigoDepartamento" name="CodigoDepartamento" placeholder="Código del Departamento" required />
+            <input type="text" id="NombrePortafolio" name="NombrePortafolio" placeholder="Nombre del Portafolio" required />
+            <input type="text" id="NombreProyecto" name="NombreProyecto" placeholder="Seleccionar proyecto" required />
+           
+            <input type="text" id="Descripcion" name="Descripcion" placeholder="Descripción" required />
+           
+            <p>Fecha de inicio: </p>
+            <input type="date" id="FechaInicio" name="FechaInicio" required />
+            <p>Fecha de fin: </p>
+            <input type="date" id="FechaFin" name="FechaFin" required />
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+</body>
+</html>
