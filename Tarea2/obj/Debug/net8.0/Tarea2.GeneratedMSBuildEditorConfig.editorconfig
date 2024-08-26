@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\brasl\Desktop\Tarea_2\Tarea2
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/brasl/Desktop/Tarea_2/Tarea2/Pages/Confirmacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uZmlybWFjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/brasl/Desktop/Tarea_2/Tarea2/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/brasl/Desktop/Tarea_2/Tarea2/Pages/Formulario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/brasl/Desktop/Tarea_2/Tarea2/Pages/Index.cshtml]

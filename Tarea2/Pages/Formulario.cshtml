@@ -1,0 +1,61 @@
+@page
+@model Tarea2.Pages.FormularioModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Ingreso de Datos</title>
+</head>
+<body>
+    <h1>Ingresar Datos</h1>
+    <form method="post">
+        <label for="Cedula">Cédula:</label>
+        <input type="number" id="Cedula" name="Cedula" required /><br /><br />
+
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre" name="Nombre" required /><br /><br />
+
+        <label for="Apellido1">Apellido 1:</label>
+        <input type="text" id="Apellido1" name="Apellido1" required /><br /><br />
+
+        <label for="Apellido2">Apellido 2:</label>
+        <input type="text" id="Apellido2" name="Apellido2" required /><br /><br />
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Lista de Datos</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Cédula</th>
+                <th>Nombre</th>
+                <th>Apellido 1</th>
+                <th>Apellido 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Personas != null && Model.Personas.Count > 0)
+            {
+                @foreach (var persona in Model.Personas)
+                {
+                    <tr>
+                        <td>@persona.Cedula</td>
+                        <td>@persona.Nombre</td>
+                        <td>@persona.Apellido1</td>
+                        <td>@persona.Apellido2</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="4">No hay datos disponibles.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

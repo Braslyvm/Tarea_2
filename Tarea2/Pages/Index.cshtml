@@ -1,10 +1,17 @@
 ﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@model Tarea2.Pages.IndexModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+<body>
+    <h1>Bienvenido a la Página Principal</h1>
+    <p>Haga clic en el botón a continuación para ingresar datos.</p>
+    <form method="get" action="/Formulario">
+        <button type="submit">Ir al Formulario</button>
+    </form>
+</body>
+</html>
